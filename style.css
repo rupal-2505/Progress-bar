@@ -99,3 +99,15 @@ button{
     margin: 1px 1px;
     border-radius: 5px;
 }
+.footer__text {
+    color: var(--color-divider);
+  }
+  
+  .footer__link {
+    color: var(--color-secondarytext);
+  }
+  
+  .footer__link:hover {
+    transition: all 0.5s ease-in-out;
+    color: var(--color-primarytext);
+  }
