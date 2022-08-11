@@ -1,6 +1,6 @@
 let showPercentage;
         let i=0;
-        let fillDiv=document.getElementById('pgbar');
+        let pgbar=document.getElementById('pgbar');
         function show(){
             showPercentage=document.getElementById('percentage').value;
             showper(showPercentage,i);
